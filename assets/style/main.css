@@ -1,0 +1,255 @@
+/*********************
+General
+**********************/
+body {
+  background-color: #eceef1;
+  width: 100%;
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #0077c5 !important;
+}
+
+.align {
+    text-align: center;
+}
+
+.center {
+    margin: 0 auto;
+}
+
+.full-w {
+    width: 100%;
+}
+
+/*********************
+Links hover
+**********************/
+.main div:nth-child(2) a:hover,
+.main div:last-child a:hover,
+footer a:hover {
+    text-decoration: underline;
+}
+
+.main div:last-child a {
+    font-style: italic;
+}
+
+
+/*********************
+Button
+**********************/
+.btn {
+  background-color: #0f7ac9;
+  border: 1px solid #555;
+  border-radius: 5px;
+}
+
+.btn a {
+  color: #fff !important;
+  display: block;
+  padding: 8px 20px;
+}
+
+/***********************
+Clearfix
+************************/
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+
+.group:after {
+  clear: both;
+}
+
+.group {
+  clear: both;
+  *zoom: 1;
+}
+
+/*********************
+Header
+**********************/
+header {
+  width: 90%;
+}
+
+header div,
+header button {
+  float: right;
+}
+
+header div {
+  font-weight: 200;
+  font-size: 12px;
+  line-height: 18px;
+  margin-top: 12px;
+}
+
+header .btn {
+  margin-top: 12px;
+  margin-left: 10px;
+  padding: 0;
+  font-size: 13px;
+}
+
+/*********************
+Logo
+**********************/
+#logo a {
+  margin: 35px auto 20px;
+  display: block;
+  height: 35px;
+  width: 118px;
+  background-image: url("../images/ecosystem_logos_new.png");
+  background-position: 0 0;
+  background-repeat: no-repeat;
+}
+
+/*********************
+Main section
+**********************/
+.main {
+    background-color: #fff;
+    border-radius: 2px;
+    width: 380px;
+    border: 1px solid #c7c7c7;
+    color: #4c4c4c;
+}
+
+.inner-width {
+    width: 85%;
+}
+
+.main ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 30px auto 18px;
+}
+
+.main li a {
+    height: 30px;
+    display: block;
+    background-repeat: no-repeat;
+    background-image: url("../images/ecosystem_logos_new.png");
+}
+
+.main li:first-child a {
+    width:101px;
+    background-position: 0 100%;
+}
+
+.main li:nth-child(2) a {
+    width: 133px;
+    background-position: 33% 100%;
+}
+
+.main li:last-child a {
+    width: 80px;
+    background-position: 65% 100%;
+}
+
+hr {
+    border-top:1px solid #e2e1e1;
+}
+
+.main div:nth-child(2) p:first-child {
+    font-size: 25px;
+    font-weight: 300;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.main div:nth-child(2) p:nth-child(2) {
+    font-size: 15px;
+    font-weight: 200;
+    margin-bottom: 25px;
+}
+
+label {
+    font-size: 14px;
+    line-height: 25px;
+    font-weight: 300;
+}
+
+input {
+    margin-top: 5px;
+    margin-bottom: 30px;
+    height: 35px;
+    border: 1px solid #C1C5C8;
+    border-radius: 3px;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+input:nth-of-type(2) {
+    margin-bottom: 0;
+}
+
+form span {
+    font-size: 10px;
+    font-weight: 200;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+form button {
+    display: block;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 300;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    box-sizing: border-box;
+}
+
+.main div:last-child {
+    color: #bbb;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+/*********************
+Footer
+**********************/
+footer {
+    margin-top: 45px;
+}
+
+#small-logo {
+    display: block;
+    width: 90px;
+    height: 45px;
+    margin: 0 auto;
+    background-image: url("../images/intuit_grey.svg");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    margin-bottom: 12px;
+}
+
+footer div {
+    width: 80%;
+    color: #6a6a6b;
+    font-size: 11px;
+    line-height: 22px;
+    font-weight: 300;
+}
+
+footer ul {
+    display: flex;
+    flex-direction: row;
+    width: 25%;
+    justify-content: space-between;
+}
+
+footer li a {
+    color: #6a6a6b !important;
+}
